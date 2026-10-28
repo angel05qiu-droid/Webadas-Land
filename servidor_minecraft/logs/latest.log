@@ -1,0 +1,585 @@
+[28Oct2026 15:10:57.134] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.249, --fml.fmlVersion, 4.0.44, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, nogui]
+[28Oct2026 15:10:57.137] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.12.1+1-1-24.04.4-Ubuntu
+[28Oct2026 15:10:57.139] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.12.1 by Ubuntu; OS Linux arch amd64 version 6.8.0-1064-azure
+[28Oct2026 15:11:01.261] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[28Oct2026 15:11:01.319] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/workspaces/Webadas-Land/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/ Service=ModLauncher Env=SERVER
+[28Oct2026 15:11:02.023] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.249:server]
+[28Oct2026 15:11:02.157] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.249-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.249/neoforge-21.1.249-universal.jar]], reader: mod manifest]
+[28Oct2026 15:11:02.166] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "accents-neoforge-1.21.1-2.0.3.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.172] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "aces_spell_utils-1.2.7.4-1.21.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.175] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "afterwear-1.2.1+1.21.1-neoforge.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.179] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ancient_remnants-1.5.2+1.21.1-neoforge.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.190] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "appleskin-neoforge-mc1.21-3.0.9.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.194] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "aquamirae-neoforge-1.21.1-7.2.13.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.197] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-13.0.11-neoforge.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.199] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "baguettelib-1.21.1-NeoForge-2.0.7.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.203] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "balm-neoforge-1.21.1-21.0.66.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.206] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "bookshelf-neoforge-1.21.1-21.1.81.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.211] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "born_in_chaos_[Neoforge]_1.21.1_1.7.6.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.213] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "caravans-neoforge-1.21.1-3.0.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.215] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cataclysm_of_chaos-1.2.0-neoforge-1.21.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.217] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cataclysmfortresses-1.21.1-NeoForge.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.220] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cinematiccataclysm-1.0.1-1.21.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.223] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.225] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Clumps-neoforge-1.21.1-19.0.0.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.228] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "combat_roll-neoforge-2.0.6+1.21.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.230] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Controlling-neoforge-1.21.1-19.0.5.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.232] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "corpse-neoforge-1.21.1-1.1.21.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.235] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "corpsecurioscompat-1.21.1-NeoForge-3.1.3.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.239] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cosmeticarmorreworked-1.21.1-v1-neoforge.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.242] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cosmeticcorpsecompat-1.21.1-NeoForge--1.0.0.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.245] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cristellib-neoforge-1.21.1-3.1.7.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.247] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cupboard-1.21.1-4.2.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.249] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "curios-neoforge-9.5.1+1.21.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.252] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DungeonCrawl-NeoForge-1.21-2.3.17.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.255] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ec_tf_plugin-1.21.1-1.1.4.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.257] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "enhanced_enchanting-2.2.2.2-neoforge-1.21.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.261] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "expanded_combat-1.21.1-3.3.12.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.264] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "FarmersDelight-1.21.1-1.3.4.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.266] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "FastSuite-1.21.1-6.0.7.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.268] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "FastWorkbench-1.21.1-9.1.3.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.271] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fdlib-1.0.9-1.21.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.278] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ferritecore-7.0.3-neoforge.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.281] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fragmentum-5.4.0+1.21.1-neoforge.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.329] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fzzy_config-0.7.7+1.21+neoforge.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.331] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "geckolib-neoforge-1.21.1-4.9.3.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.333] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "healight-neoforge-1.21.1-1.0.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.410] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "iceandfire-2.1.4.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.412] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ImmediatelyFast-NeoForge-1.6.15+1.21.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.414] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "invocore-1.21.1-5.2.4.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.416] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "irons_lib-1.21.1-2.2.0.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.422] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "irons_spellbooks-1.21.1-3.16.3.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.426] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-1.21.1-neoforge-19.64.0.455.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.428] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jupiter-2.3.7-1.21.1-neoforge.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.429] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinforforge-5.12.0-all.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.433] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "L_Ender's Cataclysm 1.21.1-3.33.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.435] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lionfishapi-3.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.443] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lithium-neoforge-0.15.4+mc1.21.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.445] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lootintegrations-1.21.1-4.7.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.448] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lootintegrations_iceandfire-1.3.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.450] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lootintegrations_integrated-1.6.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.452] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lootintegrations_vanilla-1.8.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.454] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lootintegrations_yungs-1.6.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.457] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lootr-neoforge-1.21.1-1.11.38.127.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.458] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "maestro-neoforge-1.21.1-4.0.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.459] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mezz_config-1.21.1-neoforge-0.6.8-standalone.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.462] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "modernfix-neoforge-5.27.26+mc1.21.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.466] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "MoogsEndStructures-universal-1.21-2.1.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.470] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "MoogsNetherStructures-universal-1.21-3.1.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.472] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "MoogsStructureLib-neoforge-1.21.1-3.4.2.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.473] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "MoogsVoyagerStructures-universal-1.21-5.1.3.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.475] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mowzies_cataclysm-1.2.2.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.477] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mowziesmobs-1.21.1-1.8.2.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.478] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "noisium-neoforge-2.7.0+mc1.21-1.21.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.480] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "OctoLib-NEOFORGE-0.6.2+1.21.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.482] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "OverflowingBars-v21.1.1-1.21.1-NeoForge.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.484] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Ping-Wheel-1.12.2-neoforge-1.21.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.487] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Placebo-1.21.1-9.9.4.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.489] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "player-animation-lib-forge-2.0.4+1.21.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.491] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "prickle-neoforge-1.21.1-21.1.11.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.493] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "puzzleslib-v21.1.64-mc1.21.1+neoforge.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.496] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "relics-1.21.1-0.10.7.8.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.498] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "reliquified_twilight_forest-1.21.1-0.5.3.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.502] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "revive_me-1.21.1-5.10.0.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.504] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Searchables-neoforge-1.21.1-1.0.2.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.505] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "shulkerboxtooltip-neoforge-5.1.9+1.21.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.508] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sophisticatedbackpacks-1.21.1-3.26.14.2222.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.510] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sophisticatedcore-1.21.1-1.5.16.2422.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.512] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sound-physics-remastered-neoforge-1.21.1-1.5.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.515] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "t_and_t-fabric-neoforge-1.13.11.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.517] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "TerraBlender-neoforge-1.21.1-4.1.0.8.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.518] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "tf_dnv-2.0.3.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.520] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "tfbr-1.21.1-4.2.2.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.522] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "twilight_lootr-neoforge-1.21.1-0.0.0.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.524] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "twilight_spellbooks-1.2.0.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.526] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "twilightdelight-3.2.7.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.533] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "twilightforest-1.21.1-4.8.3345-universal.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.538] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "uranus-2.4.1-bugfix-1.21.1-neoforge.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.541] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "wakes-1.21.1-NeoForge-1.4.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.543] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "waystones-neoforge-1.21.1-21.1.46.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.545] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "xaerominimap-neoforge-1.21.1-26.6.0.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.547] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "xaeroworldmap-neoforge-1.21.1-1.47.0.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.549] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsApi-1.21.1-NeoForge-5.1.9.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.550] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterCaves-1.21.1-NeoForge-3.1.6.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.551] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.553] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.554] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterEndIsland-1.21.1-NeoForge-3.1.2.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.557] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.559] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.560] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.562] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.564] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.565] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.567] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBridges-1.21.1-NeoForge-5.1.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.569] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsCaveBiomes-1.21.1-NeoForge-3.1.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.570] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsExtras-1.21.1-NeoForge-5.1.1.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:02.571] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsMenuTweaks-1.21.1-NeoForge-2.1.2.jar" [locator: {mods folder locator at /workspaces/Webadas-Land/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2026 15:11:04.210] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Nested Mod File  in Mod File: /workspaces/Webadas-Land/servidor_minecraft/mods/kotlinforforge-5.12.0-all.jar and Nested Mod File  in Nested Mod File  in Mod File: /workspaces/Webadas-Land/servidor_minecraft/mods/fragmentum-5.4.0+1.21.1-neoforge.jar. Using Nested Mod File  in Mod File: /workspaces/Webadas-Land/servidor_minecraft/mods/kotlinforforge-5.12.0-all.jar
+[28Oct2026 15:11:04.210] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Nested Mod File  in Mod File: /workspaces/Webadas-Land/servidor_minecraft/mods/kotlinforforge-5.12.0-all.jar and Nested Mod File  in Nested Mod File  in Mod File: /workspaces/Webadas-Land/servidor_minecraft/mods/fragmentum-5.4.0+1.21.1-neoforge.jar. Using Nested Mod File  in Mod File: /workspaces/Webadas-Land/servidor_minecraft/mods/kotlinforforge-5.12.0-all.jar
+[28Oct2026 15:11:04.210] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Nested Mod File  in Mod File: /workspaces/Webadas-Land/servidor_minecraft/mods/kotlinforforge-5.12.0-all.jar and Nested Mod File  in Nested Mod File  in Mod File: /workspaces/Webadas-Land/servidor_minecraft/mods/fragmentum-5.4.0+1.21.1-neoforge.jar. Using Nested Mod File  in Mod File: /workspaces/Webadas-Land/servidor_minecraft/mods/kotlinforforge-5.12.0-all.jar
+[28Oct2026 15:11:04.211] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: architectury. Using Mod File: /workspaces/Webadas-Land/servidor_minecraft/mods/architectury-13.0.11-neoforge.jar
+[28Oct2026 15:11:04.211] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 37 dependencies adding them to mods collection
+[28Oct2026 15:11:04.211] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.249-universal.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2026 15:11:04.211] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kuma-api-neoforge-21.0.8+1.21.jar" [parent: balm-neoforge-1.21.1-21.0.66.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2026 15:11:04.212] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "l2serial-3.0.9.jar" [parent: twilightdelight-3.2.7.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2026 15:11:04.212] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.249.jar" [parent: neoforge-21.1.249-universal.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2026 15:11:04.212] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "thedarkcolour.kfflang-5.12.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2026 15:11:04.212] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-metadata-3.12.0.jar" [parent: yet-another-config-lib-3.6.6+1.21.1-neoforge.jar, locator: jarinjar]
+[28Oct2026 15:11:04.212] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "xaerolib-neoforge-1.21.1-1.7.3.jar" [parent: xaeroworldmap-neoforge-1.21.1-1.47.0.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2026 15:11:04.212] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "thedarkcolour.kfflib-5.12.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2026 15:11:04.212] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinforforge-neoforge-5.3.0-all.jar" [parent: fragmentum-5.4.0+1.21.1-neoforge.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2026 15:11:04.212] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "thedarkcolour.kffmod-5.12.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2026 15:11:04.212] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "gson-0.2.1.jar" [parent: yet-another-config-lib-3.6.6+1.21.1-neoforge.jar, locator: jarinjar]
+[28Oct2026 15:11:04.212] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-reflect-2.4.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]
+[28Oct2026 15:11:04.212] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-2.4.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]
+[28Oct2026 15:11:04.213] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-core-jvm-1.11.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]
+[28Oct2026 15:11:04.213] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "l2core-3.0.8+16.jar" [parent: twilightdelight-3.2.7.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2026 15:11:04.213] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "tomlkt-jvm-0.3.7.jar" [parent: fzzy_config-0.7.7+1.21+neoforge.jar, locator: jarinjar]
+[28Oct2026 15:11:04.213] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "json-0.2.1.jar" [parent: yet-another-config-lib-3.6.6+1.21.1-neoforge.jar, locator: jarinjar]
+[28Oct2026 15:11:04.213] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-jdk8-1.11.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]
+[28Oct2026 15:11:04.213] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "s.tf-asm-4.8.3345.jar" [parent: twilightforest-1.21.1-4.8.3345-universal.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2026 15:11:04.213] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-io-3.12.0.jar" [parent: yet-another-config-lib-3.6.6+1.21.1-neoforge.jar, locator: jarinjar]
+[28Oct2026 15:11:04.213] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "yet-another-config-lib-3.6.6+1.21.1-neoforge.jar" [parent: fragmentum-5.4.0+1.21.1-neoforge.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2026 15:11:04.213] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk7-2.4.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]
+[28Oct2026 15:11:04.213] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk8-2.4.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]
+[28Oct2026 15:11:04.213] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-webp-3.12.0.jar" [parent: yet-another-config-lib-3.6.6+1.21.1-neoforge.jar, locator: jarinjar]
+[28Oct2026 15:11:04.214] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "Crunch-2.0.3.jar" [parent: afterwear-1.2.1+1.21.1-neoforge.jar, locator: jarinjar]
+[28Oct2026 15:11:04.214] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-core-jvm-1.11.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]
+[28Oct2026 15:11:04.214] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "Reflect-1.6.2.jar" [parent: ImmediatelyFast-NeoForge-1.6.15+1.21.1.jar, locator: jarinjar]
+[28Oct2026 15:11:04.214] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "Registrate-MC1.21-1.3.0+67.jar" [parent: twilightdelight-3.2.7.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2026 15:11:04.214] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-image-3.12.0.jar" [parent: yet-another-config-lib-3.6.6+1.21.1-neoforge.jar, locator: jarinjar]
+[28Oct2026 15:11:04.214] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-json-jvm-1.11.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]
+[28Oct2026 15:11:04.214] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "integration-neoforge-0.2.jar" [parent: iceandfire-2.1.4.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2026 15:11:04.214] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "l2modularblocks-3.0.0.jar" [parent: twilightdelight-3.2.7.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2026 15:11:04.214] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-lang-3.12.0.jar" [parent: yet-another-config-lib-3.6.6+1.21.1-neoforge.jar, locator: jarinjar]
+[28Oct2026 15:11:04.214] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-core-3.12.0.jar" [parent: yet-another-config-lib-3.6.6+1.21.1-neoforge.jar, locator: jarinjar]
+[28Oct2026 15:11:04.214] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mezz_config-1.21.1-neoforge-0.6.8.jar" [parent: mezz_config-1.21.1-neoforge-0.6.8-standalone.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2026 15:11:04.214] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "snakeyaml-2.2.jar" [parent: OctoLib-NEOFORGE-0.6.2+1.21.jar, locator: jarinjar]
+[28Oct2026 15:11:04.214] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jankson-1.2.3.jar" [parent: cristellib-neoforge-1.21.1-3.1.7.jar, locator: jarinjar]
+[28Oct2026 15:11:04.217] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Accents 2.0.3 (accents)
+		Ace's Spell Utils 1.2.7.4-1.21.1 (aces_spell_utils)
+		Afterwear 1.2.1 (afterwear)
+		Ancient Remnants 1.5.2 (ancient_remnants)
+		AppleSkin 3.0.9+mc1.21 (appleskin)
+		Aquamirae 7.2.13 (aquamirae)
+		Architectury 13.0.11 (architectury)
+		BaguetteLib 2.0.7 (baguettelib)
+		Balm 21.0.66 (balm)
+		Bookshelf 21.1.81 (bookshelf)
+		Born in Chaos  1.7.6 (born_in_chaos_v1)
+		Cataclysm of Chaos 1.2.0 (cataclysm_of_chaos)
+		Cataclysm x YUNG's Better Nether Fortresses Compat 1.21.1 (cataclysmfortresses)
+		Cinematic Cataclysm 1.0.1 (cinematiccataclysm)
+		Cloth Config v15 API 15.0.140 (cloth_config)
+		Clumps 19.0.0.1 (clumps)
+		Combat Roll 2.0.6+1.21.1 (combat_roll)
+		Controlling 19.0.5 (controlling)
+		Corpse 1.21.1-1.1.21 (corpse)
+		Corpse Curios Compatibility 3.1.3 (corpsecurioscompat)
+		CosmeticArmorReworked 1.21.1-v1-neoforge (cosmeticarmorreworked)
+		cosmeticcorpsecompat 1.0.0 (cosmeticcorpsecompat)
+		Cristel Lib 3.1.7 (cristellib)
+		Cupboard mod 4.2 (cupboard)
+		Curios API 9.5.1+1.21.1 (curios)
+		Dungeon Crawl 2.3.17 (dungeoncrawl)
+		EC Twilight Forest Plugin 1.1.4 (ec_tf_plugin)
+		Enhanced Enchanting 2.2.2.2 (enhanced_enchanting)
+		Expanded Combat 3.3.12 (expanded_combat)
+		Farmer's Delight 1.3.4 (farmersdelight)
+		Fast Suite 6.0.7 (fastsuite)
+		Fast Workbench 9.1.3 (fastbench)
+		FDLib 1.0.9 (fdlib)
+		Ferrite Core 7.0.3 (ferritecore)
+		Fragmentum 5.4.0 (fragmentum)
+		Fzzy Config 0.7.7+1.21+neoforge (fzzy_config)
+		GeckoLib 4 4.9.3 (geckolib)
+		Healight 1.0.1 (healight)
+		Ice And Fire Community Edition 2.1.4 (iceandfire)
+		ImmediatelyFast 1.6.15+1.21.1 (immediatelyfast)
+		Integration 0.2 (integration)
+		Invocore 5.2.4 (invocore)
+		Iron's Lib 1.21.1-2.2.0 (irons_lib)
+		Iron's Spells 'n Spellbooks 1.21.1-3.16.3 (irons_spellbooks)
+		Jupiter 2.3.7 (jupiter)
+		Just Enough Items 19.64.0.455 (jei)
+		Kotlin For Forge 5.12.0 (kotlinforforge)
+		KumaAPI 21.0.8 (kuma_api)
+		L2Core 3.0.8+16 (l2core)
+		L_Ender's Cataclysm 1.21.1 3.33 (cataclysm)
+		lionfishapi 3.1 (lionfishapi)
+		Lithium 0.15.4+mc1.21.1 (lithium)
+		Lootintegrations mod 4.7 (lootintegrations)
+		lootintegrations_iceandfire mod 1.3 (lootintegrations_iceandfire)
+		lootintegrations_integrated mod 1 (lootintegrations_integrated)
+		lootintegrations_vanilla mod 1 (lootintegrations_vanilla)
+		lootintegrations_yungs mod 1 (lootintegrations_yungs)
+		Lootr 1.21.1-1.11.38.127 (lootr)
+		Maestro 4.0.1 (maestro)
+		MezzConfig 0.6.8 (mezz_config)
+		Minecraft 1.21.1 (minecraft)
+		ModernFix 5.27.26+mc1.21.1 (modernfix)
+		Moog's Structure Lib 3.4.2 (moogs_structures)
+		MoogsEndStructures 2.1.1 (mes)
+		MoogsNetherStructures 3.1.1 (mns)
+		MoogsVoyagerStructures 5.1.3 (mvs)
+		Mowzie's Cataclysm 1.2.2 (mowzies_cataclysm)
+		Mowzie's Mobs 1.8.2 (mowziesmobs)
+		NeoForge 21.1.249 (neoforge)
+		Noisium 2.7.0+mc1.21-1.21.1 (noisium)
+		OctoLib 0.6.2 (octolib)
+		Overflowing Bars 21.1.1 (overflowingbars)
+		Pillager Caravans 3.0.1 (caravans)
+		Ping Wheel 1.12.2 (pingwheel)
+		Placebo 9.9.4 (placebo)
+		Player Animator 2.0.4+1.21.1 (playeranimator)
+		PrickleMC 21.1.11 (prickle)
+		Puzzles Lib 21.1.64 (puzzleslib)
+		Relics 0.10.7.8 (relics)
+		Reliquified Twilight Forest 0.5.3 (reliquified_twilight_forest)
+		Revive Me! 5.10.0 (revive_me)
+		Searchables 1.0.2 (searchables)
+		ShulkerBoxTooltip 5.1.9+1.21.1 (shulkerboxtooltip)
+		Sophisticated Backpacks 3.26.14 (sophisticatedbackpacks)
+		Sophisticated Core 1.5.16 (sophisticatedcore)
+		Sound Physics Remastered 1.21.1-1.5.1 (sound_physics_remastered)
+		TerraBlender 4.1.0.8 (terrablender)
+		The Twilight Forest 4.8.3345 (twilightforest)
+		Towns and Towers 1.13.11 (t_and_t)
+		Twilight Flavors & Delight 3.2.7 (twilightdelight)
+		Twilight Forest - Dungeons & Villages 2.0.3 (tf_dnv)
+		Twilight Forest Bosses Resurrection 4.2.2 (tfbr)
+		Twilight Lootr 1.21.1-0.0.0.1 (twilight_lootr)
+		Twilight Spellbooks 1.2.0 (twilight_spellbooks)
+		Uranus 2.4.1-bugfix (uranus)
+		Wakes 1.4.1 (wakes)
+		Waystones 21.1.46 (waystones)
+		Xaero's Minimap 26.6.0 (xaerominimap)
+		Xaero's World Map 1.47.0 (xaeroworldmap)
+		XaeroLib 1.7.3 (xaerolib)
+		YetAnotherConfigLib 3.6.6+1.21.1-neoforge (yet_another_config_lib_v3)
+		YUNG's API 1.21.1-NeoForge-5.1.9 (yungsapi)
+		YUNG's Better Caves 1.21.1-NeoForge-3.1.6 (bettercaves)
+		YUNG's Better Desert Temples 1.21.1-NeoForge-4.1.5 (betterdeserttemples)
+		YUNG's Better Dungeons 1.21.1-NeoForge-5.1.4 (betterdungeons)
+		YUNG's Better End Island 1.21.1-NeoForge-3.1.2 (betterendisland)
+		YUNG's Better Jungle Temples 1.21.1-NeoForge-3.1.2 (betterjungletemples)
+		YUNG's Better Mineshafts 1.21.1-NeoForge-5.1.1 (bettermineshafts)
+		YUNG's Better Nether Fortresses 1.21.1-NeoForge-3.1.5 (betterfortresses)
+		YUNG's Better Ocean Monuments 1.21.1-NeoForge-4.1.2 (betteroceanmonuments)
+		YUNG's Better Strongholds 1.21.1-NeoForge-5.1.3 (betterstrongholds)
+		YUNG's Better Witch Huts 1.21.1-NeoForge-4.1.1 (betterwitchhuts)
+		YUNG's Bridges 1.21.1-NeoForge-5.1.1 (yungsbridges)
+		YUNG's Cave Biomes 1.21.1-NeoForge-3.1.1 (yungscavebiomes)
+		YUNG's Extras 1.21.1-NeoForge-5.1.1 (yungsextras)
+		YUNG's Menu Tweaks 1.21.1-NeoForge-2.1.2 (yungsmenutweaks)
+[28Oct2026 15:11:04.719] [main/INFO] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading coremod script-engine for [xaeroworldmap, xaerominimap]
+[28Oct2026 15:11:07.210] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[28Oct2026 15:11:07.213] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[28Oct2026 15:11:07.625] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[28Oct2026 15:11:07.699] [main/WARN] [mixin/]: Reference map 'betterdungeons.refmap.json' for betterdungeons.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:07.700] [main/WARN] [mixin/]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:07.701] [main/WARN] [mixin/]: Reference map 'betterwitchhuts.refmap.json' for betterwitchhuts.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:07.708] [main/WARN] [mixin/]: Reference map 'betteroceanmonuments.refmap.json' for betteroceanmonuments.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:07.709] [main/WARN] [mixin/]: Reference map 'bettercaves.refmap.json' for bettercaves.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:07.711] [main/WARN] [mixin/]: Reference map 'xaeroworldmap.refmap.json' for xaeroworldmap.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:07.712] [main/WARN] [mixin/]: Reference map 'controlling.refmap.json' for controlling.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:07.713] [main/WARN] [mixin/]: Reference map 'controlling.refmap.json' for controlling.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:07.714] [main/WARN] [mixin/]: Reference map 'placebo.refmap.json' for placebo.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.018] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.27.26+mc1.21.1: 89 options available, 0 override(s) found
+[28Oct2026 15:11:08.019] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[28Oct2026 15:11:08.023] [main/WARN] [mixin/]: Reference map 'lootintegrations.refmap.json' for lootintegrations.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.024] [main/WARN] [mixin/]: Reference map 'yungsapi.refmap.json' for yungsapi.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.025] [main/WARN] [mixin/]: Reference map 'bookshelf.refmap.json' for bookshelf.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.026] [main/WARN] [mixin/]: Reference map 'accents.refmap.json' for accents.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.026] [main/WARN] [mixin/]: Reference map 'accents.refmap.json' for accents.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.027] [main/WARN] [mixin/]: Reference map 'relics.refmap.json' for relics.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.028] [main/WARN] [mixin/]: Reference map 'balm.refmap.json' for balm.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.028] [main/WARN] [mixin/]: Reference map 'prickle.refmap.json' for prickle.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.029] [main/WARN] [mixin/]: Reference map 'betterfortresses.refmap.json' for betterfortresses.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.031] [main/WARN] [mixin/]: Reference map 'aces_spell_utils.refmap.json' for aces_spell_utils.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.031] [main/WARN] [mixin/]: Reference map 'ancient_remnants.mixins.refmap.json' for ancient_remnants.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.032] [main/WARN] [mixin/]: Reference map 'yungsbridges.refmap.json' for yungsbridges.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.032] [main/WARN] [mixin/]: Reference map 'lionfishapi.refmap.json' for lionfishapi.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.033] [main/WARN] [mixin/]: Reference map 'cataclysm.refmap.json' for cataclysm.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.034] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.034] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.039] [main/WARN] [mixin/]: Reference map 'searchables.refmap.json' for searchables.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.039] [main/WARN] [mixin/]: Reference map 'searchables.refmap.json' for searchables.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.042] [main/WARN] [mixin/]: Reference map 'ancient_tome.refmap.json' for mixins.tf_dnv.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.042] [main/WARN] [mixin/]: Reference map 'betterstrongholds.refmap.json' for betterstrongholds.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.043] [main/WARN] [mixin/]: Reference map 'yungsmenutweaks.refmap.json' for yungsmenutweaks.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.043] [main/WARN] [mixin/]: Reference map 'yungsmenutweaks.refmap.json' for yungsmenutweaks_neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.044] [main/WARN] [mixin/]: Reference map 'healight.refmap.json' for healight.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.044] [main/WARN] [mixin/]: Reference map 'healight.refmap.json' for healight.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.046] [main/WARN] [mixin/]: Reference map 'betterendisland.refmap.json' for betterendisland.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.047] [main/WARN] [mixin/]: Reference map 'bettermineshafts.refmap.json' for bettermineshafts.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.048] [main/WARN] [mixin/]: Reference map 'maestro.refmap.json' for maestro.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.048] [main/WARN] [mixin/]: Reference map 'maestro.refmap.json' for maestro.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.048] [main/WARN] [mixin/]: Reference map 'betterjungletemples.refmap.json' for betterjungletemples.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.049] [main/WARN] [mixin/]: Reference map 'mowziesmobs.refmap.json' for mowziesmobs.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.049] [main/WARN] [mixin/]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.055] [main/WARN] [mixin/]: Reference map 'revive_me.refmap.json' for revive_me.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.056] [main/WARN] [mixin/]: Reference map 'afterwear.mixins.refmap.json' for afterwear.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.056] [main/WARN] [mixin/]: Reference map 'irons_lib.refmap.json' for irons_lib.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.181] [main/INFO] [LithiumConfig/]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[28Oct2026 15:11:08.181] [main/INFO] [LithiumConfig/]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[28Oct2026 15:11:08.181] [main/INFO] [LithiumConfig/]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[28Oct2026 15:11:08.182] [main/INFO] [LithiumConfig/]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[28Oct2026 15:11:08.182] [main/INFO] [Lithium/]: Loaded configuration file for Lithium: 148 options available, 0 override(s) found
+[28Oct2026 15:11:08.187] [main/WARN] [mixin/]: Reference map 'xaerolib.refmap.json' for xaerolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.188] [main/WARN] [mixin/]: Reference map 'Ping-Wheel-refmap.json' for pingwheel.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.189] [main/WARN] [mixin/]: Reference map 'waystones.refmap.json' for waystones.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.190] [main/WARN] [mixin/]: Reference map 'fragmentum.mixins.refmap.json' for fragmentum.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.190] [main/WARN] [mixin/]: Reference map 'fastsuite.refmap.json' for fastsuite.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.191] [main/WARN] [mixin/]: Reference map 'clumps.refmap.json' for clumps.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.191] [main/WARN] [mixin/]: Reference map 'yungscavebiomes.refmap.json' for yungscavebiomes.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.192] [main/WARN] [mixin/]: Reference map 'yungscavebiomes.refmap.json' for yungscavebiomes_neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.193] [main/WARN] [mixin/]: Reference map 'betterdeserttemples.refmap.json' for betterdeserttemples.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.194] [main/WARN] [mixin/]: Reference map 'reliquified_twilight_forest.refmap.json' for reliquified_twilight_forest.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.195] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.196] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender_neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.196] [main/WARN] [mixin/]: Reference map 'fdlib.refmap.json' for fdlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.197] [main/WARN] [mixin/]: Reference map 'xaerominimap.refmap.json' for xaerohud.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.198] [main/WARN] [mixin/]: Reference map 'xaerominimap.refmap.json' for xaerominimap.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.199] [main/WARN] [mixin/]: Reference map 'fastbench.refmap.json' for fastbench.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.290] [main/WARN] [mixin/]: Reference map 'irons_spellbooks.refmap.json' for irons_spellbooks.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.291] [main/WARN] [mixin/]: Reference map 'cosmeticcorpsecompat.refmap.json' for cosmeticcorpsecompat.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.349] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.predicates.mixin.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.352] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.fastmap.mixin.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.353] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.mrl.mixin.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.353] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.dedupmultipart.mixin.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.354] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.blockstatecache.mixin.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.355] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.dedupbakedquad.mixin.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.355] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.threaddetec.mixin.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.356] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.modelsides.mixin.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.357] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.datacomponents.mixin.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.357] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.accessors.mixin.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.358] [main/WARN] [mixin/]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.401] [main/WARN] [mixin/]: Reference map 'wakes.refmap.json' for wakes.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.401] [main/WARN] [mixin/]: Reference map 'wakes.refmap.json' for wakes.sable.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.402] [main/WARN] [mixin/]: Reference map 'expanded_combat.refmap.json' for expanded_combat.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.403] [main/WARN] [mixin/]: Reference map 'aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.403] [main/WARN] [mixin/]: Reference map 'aquamirae.refmap.json' for aquamirae.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:08.404] [main/WARN] [mixin/]: Reference map 'sound_physics_remastered.refmap.json' for sound_physics_remastered.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2026 15:11:09.583] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[28Oct2026 15:11:09.595] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[28Oct2026 15:11:09.595] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin from mod relics
+[28Oct2026 15:11:10.664] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[28Oct2026 15:11:10.665] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Minecraft (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER)
+[28Oct2026 15:11:10.665] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Minecraft was not found enhanced_enchanting.mixins.json:OmniscientDoMixin from mod enhanced_enchanting
+[28Oct2026 15:11:10.670] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/AnvilScreen (java.lang.ClassNotFoundException: net.minecraft.client.gui.screens.inventory.AnvilScreen)
+[28Oct2026 15:11:10.670] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.AnvilScreen was not found enhanced_enchanting.mixins.json:AnvilMaxEnchLvlRemoverRenderMixin from mod enhanced_enchanting
+[28Oct2026 15:11:10.703] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/KeyboardInput (java.lang.ClassNotFoundException: net.minecraft.client.player.KeyboardInput)
+[28Oct2026 15:11:10.703] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.KeyboardInput was not found fdlib.mixins.json:KeyboardInputMixin from mod fdlib
+[28Oct2026 15:11:10.758] [main/WARN] [mixin/]: Error loading class: vazkii/quark/addons/oddities/inventory/BackpackMenu (java.lang.ClassNotFoundException: vazkii.quark.addons.oddities.inventory.BackpackMenu)
+[28Oct2026 15:11:10.950] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/schematics/SchematicPrinter (java.lang.ClassNotFoundException: com.simibubi.create.content.schematics.SchematicPrinter)
+[28Oct2026 15:11:11.338] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/platform/InputConstants$Key (java.lang.ClassNotFoundException: com.mojang.blaze3d.platform.InputConstants$Key)
+[28Oct2026 15:11:11.775] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[28Oct2026 15:11:12.760] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (25.99 s after launch)
+[28Oct2026 15:11:15.782] [main/WARN] [mixin/]: Method overwrite conflict for getTemperature in lithium.mixins.json:world.temperature_cache.BiomeMixin from mod lithium, previously written by org.embeddedt.modernfix.common.mixin.perf.remove_biome_temperature_cache.BiomeMixin. Skipping method.
+[28Oct2026 15:11:19.519] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 6755 milliseconds
+[28Oct2026 15:11:19.724] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.249, for MC 1.21.1
+[28Oct2026 15:11:19.780] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Registering common data for channel xaeroworldmap:main!
+[28Oct2026 15:11:19.814] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading primary common config for channel xaeroworldmap:main!
+[28Oct2026 15:11:19.818] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading server config profiles for channel xaeroworldmap:main!
+[28Oct2026 15:11:20.066] [modloading-worker-0/INFO] [twilightforest.beanification.BeanContext/]: Starting Bean Context
+[28Oct2026 15:11:20.571] [modloading-worker-0/INFO] [com.iafenvoy.jupiter.Jupiter/]: Config spec system detected, register to Jupiter Config System.
+[28Oct2026 15:11:20.578] [modloading-worker-0/INFO] [com.iafenvoy.jupiter.Jupiter/]: Cloth Config API detected, register to Jupiter Config System.
+[28Oct2026 15:11:20.781] [modloading-worker-0/INFO] [twilightforest.beanification.BeanContext/]: Bean Context loaded in 715 ms
+[28Oct2026 15:11:20.879] [modloading-worker-0/INFO] [noisium/]: Loading Noisium.
+[28Oct2026 15:11:20.963] [modloading-worker-0/WARN] [yungsapi/]: WARNING: block Block{minecraft:iron_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[28Oct2026 15:11:20.983] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[28Oct2026 15:11:21.041] [modloading-worker-0/INFO] [Towns and Towers/]: Loading T&T
+[28Oct2026 15:11:21.254] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Registering common data for channel xaerolib:main!
+[28Oct2026 15:11:21.255] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading primary common config for channel xaerolib:main!
+[28Oct2026 15:11:21.256] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading server config profiles for channel xaerolib:main!
+[28Oct2026 15:11:21.259] [modloading-worker-0/INFO] [pingwheel/]: [Ping-Wheel] Init
+[28Oct2026 15:11:21.269] [modloading-worker-0/INFO] [pingwheel/]: [Ping-Wheel] Loaded ServerConfig(defaultChannelMode=auto, playerTrackingEnabled=true, msToRegenerate=1000, rateLimit=5)
+[28Oct2026 15:11:21.286] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.17...
+[28Oct2026 15:11:21.304] [modloading-worker-0/INFO] [com.leclowndu93150.corpsecurioscompat.Main/]: Hello from Corpse Curios Compat!
+[28Oct2026 15:11:21.361] [modloading-worker-0/INFO] [net.blay09.mods.balm.neoforge.config.NeoForgeBalmConfig/]: Registering config for waystones:common (COMMON) with 38 properties.
+[28Oct2026 15:11:21.857] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Registering common data for channel xaerominimap:main!
+[28Oct2026 15:11:21.888] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading primary common config for channel xaerominimap:main!
+[28Oct2026 15:11:21.889] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading server config profiles for channel xaerominimap:main!
+[28Oct2026 15:11:21.900] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.neoforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[28Oct2026 15:11:22.063] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from '/workspaces/Webadas-Land/servidor_minecraft/config/yacl.json5'
+[28Oct2026 15:11:22.171] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing components for puzzleslib:common
+[28Oct2026 15:11:22.253] [modloading-worker-0/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Webadas-Land/servidor_minecraft/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23226!/assets/.mcassetsroot' uses unexpected schema
+[28Oct2026 15:11:22.254] [modloading-worker-0/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Webadas-Land/servidor_minecraft/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23226!/data/.mcassetsroot' uses unexpected schema
+[28Oct2026 15:11:22.284] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing components for overflowingbars:common
+[28Oct2026 15:11:24.501] [modloading-sync-worker/WARN] [yungsapi/]: WARNING: block Block{minecraft:iron_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[28Oct2026 15:11:24.541] [modloading-sync-worker/INFO] [invoker54.reviveme.common.data.ReviveItemData/]: [Revive Me!] HOW MANY BYTES WERE WRITTEN?? 5855
+[28Oct2026 15:11:24.590] [modloading-worker-0/INFO] [com.lootintegrations.LootintegrationsMod/]: lootintegrations mod initialized
+[28Oct2026 15:11:24.628] [modloading-worker-0/INFO] [com.dimas_studio.tfbr.TFBR/]: Hello from Dimas Studios!
+[28Oct2026 15:11:24.629] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 1/2!
+[28Oct2026 15:11:24.750] [modloading-sync-worker/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[28Oct2026 15:11:24.750] [modloading-sync-worker/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[28Oct2026 15:11:24.750] [modloading-sync-worker/INFO] [terrablender/]: Registered region yungscavebiomes:overworld to index 1 for type OVERWORLD
+[28Oct2026 15:11:24.751] [modloading-sync-worker/INFO] [com.finderfeed.fdlib.FDLib/]: Loading FD animations...
+[28Oct2026 15:11:24.751] [modloading-sync-worker/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdlib:testanim
+[28Oct2026 15:11:24.758] [modloading-sync-worker/INFO] [com.finderfeed.fdlib.FDLib/]: FD Animations loaded!
+[28Oct2026 15:11:24.758] [modloading-sync-worker/INFO] [com.finderfeed.fdlib.FDLib/]: Loading FD models...
+[28Oct2026 15:11:24.758] [modloading-sync-worker/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdlib:test
+[28Oct2026 15:11:24.763] [modloading-sync-worker/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdlib:test
+[28Oct2026 15:11:24.764] [modloading-sync-worker/INFO] [com.finderfeed.fdlib.FDLib/]: FD Models loaded!
+[28Oct2026 15:11:24.767] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[28Oct2026 15:11:24.768] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[28Oct2026 15:11:24.767] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 1/2!
+[28Oct2026 15:11:24.769] [modloading-sync-worker/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[28Oct2026 15:11:24.769] [modloading-sync-worker/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[28Oct2026 15:11:24.770] [modloading-sync-worker/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 2/2!
+[28Oct2026 15:11:24.770] [modloading-sync-worker/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 2/2!
+[28Oct2026 15:11:24.889] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
+[28Oct2026 15:11:25.346] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.21.1&ml=neoforge
+[28Oct2026 15:11:25.476] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[28Oct2026 15:11:26.073] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [controlling] Found status: BETA Current: 19.0.5 Target: 19.0.5
+[28Oct2026 15:11:26.074] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.21.1&ml=neoforge
+[28Oct2026 15:11:26.172] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 21.1.81 Target: 21.1.81
+[28Oct2026 15:11:26.172] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [accents] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/modding/main/versions/accents.json
+[28Oct2026 15:11:26.243] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [accents] Found status: UP_TO_DATE Current: 2.0.3 Target: null
+[28Oct2026 15:11:26.243] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [prickle] Starting version check at https://updates.blamejared.com/get?n=prickle&gv=1.21.1&ml=neoforge
+[28Oct2026 15:11:26.340] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [prickle] Found status: BETA Current: 21.1.11 Target: 21.1.11
+[28Oct2026 15:11:26.341] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/neoforge/sound_physics_remastered
+[28Oct2026 15:11:26.780] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [sound_physics_remastered] Found status: OUTDATED Current: 1.21.1-1.5.1 Target: 1.21.1-1.5.2
+[28Oct2026 15:11:26.780] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json?m=1.21.1&l=NeoForge&v=21.1.249
+[28Oct2026 15:11:27.599] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [twilightforest] Found status: BETA Current: 4.8.3345 Target: null
+[28Oct2026 15:11:27.599] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/neoforge/corpse
+[28Oct2026 15:11:27.697] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [corpse] Found status: OUTDATED Current: 1.21.1-1.1.21 Target: 1.21.1-1.1.22
+[28Oct2026 15:11:27.697] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [ancient_remnants] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/modding/main/versions/ancient-remnants.json
+[28Oct2026 15:11:27.738] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [ancient_remnants] Found status: UP_TO_DATE Current: 1.5.2 Target: null
+[28Oct2026 15:11:27.738] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [caravans] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/modding/main/versions/pillager-caravans.json
+[28Oct2026 15:11:27.749] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [caravans] Found status: UP_TO_DATE Current: 3.0.1 Target: null
+[28Oct2026 15:11:27.749] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [searchables] Starting version check at https://updates.blamejared.com/get?n=searchables&gv=1.21.1&ml=neoforge
+[28Oct2026 15:11:27.810] [Worker-Main-2/WARN] [net.minecraft.server.ReloadableServerRegistries/]: Found loot table element validation problem in {minecraft:loot_table:tf_dnv:chests/dungeon_shroom_barrel}.pools[0].entries[0]: Unknown loot table called tf_dnv:dungeon_shroom
+[28Oct2026 15:11:27.846] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [searchables] Found status: BETA Current: 1.0.2 Target: 1.0.2
+[28Oct2026 15:11:27.846] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [maestro] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/modding/main/versions/maestro.json
+[28Oct2026 15:11:27.902] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [maestro] Found status: UP_TO_DATE Current: 4.0.1 Target: null
+[28Oct2026 15:11:27.902] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [afterwear] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/modding/main/versions/afterwear.json
+[28Oct2026 15:11:27.945] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [afterwear] Found status: UP_TO_DATE Current: 1.2.1 Target: null
+[28Oct2026 15:11:27.945] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.21.1&ml=neoforge
+[28Oct2026 15:11:28.044] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [clumps] Found status: BETA Current: 19.0.0.1 Target: 19.0.0.1
+[28Oct2026 15:11:28.045] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [puzzleslib] Starting version check at https://curseupdate.com/495476/puzzleslib?ml=neoforge
+[28Oct2026 15:11:28.146] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 21.1.64 Target: 21.1.66
+[28Oct2026 15:11:28.148] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [overflowingbars] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/overflowingbars.json
+[28Oct2026 15:11:28.164] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [overflowingbars] Found status: UP_TO_DATE Current: 21.1.1 Target: null
+[28Oct2026 15:11:28.165] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/modding/main/versions/aquamirae.json
+[28Oct2026 15:11:28.183] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [aquamirae] Found status: UP_TO_DATE Current: 7.2.13 Target: null
+[28Oct2026 15:11:28.791] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tf_dnv:composter: com.google.gson.JsonParseException: No key id in MapLike[{"item":"tf_dnv:composter","count":1}]
+[28Oct2026 15:11:28.806] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tf_dnv:mycologist_table: com.google.gson.JsonParseException: No key id in MapLike[{"item":"tf_dnv:mycologist_table","count":1}]
+[28Oct2026 15:11:28.818] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tf_dnv:mushgloom_torch: com.google.gson.JsonParseException: No key id in MapLike[{"item":"tf_dnv:mushgloom_torch","count":4}]
+[28Oct2026 15:11:28.861] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tf_dnv:alchemy_table: com.google.gson.JsonParseException: No key id in MapLike[{"item":"tf_dnv:alchemy_table","count":1}]
+[28Oct2026 15:11:28.863] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tf_dnv:lumber_table: com.google.gson.JsonParseException: No key id in MapLike[{"item":"tf_dnv:lumber_table","count":1}]
+[28Oct2026 15:11:28.873] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tf_dnv:butcher_table: com.google.gson.JsonParseException: No key id in MapLike[{"item":"tf_dnv:butcher_table","count":1}]
+[28Oct2026 15:11:28.883] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 3770 recipes
+[28Oct2026 15:11:29.194] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 3259 advancements
+[28Oct2026 15:11:29.208] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: lootintegrations.json
+[28Oct2026 15:11:29.246] [main/WARN] [com.iafenvoy.jupiter.Jupiter/]: Notice: Jupiter cannot resolve 13 empty List<Enum> since technical issue in Java, it is recommended to add a value in default value list.
+[28Oct2026 15:11:29.247] [main/INFO] [com.iafenvoy.jupiter.Jupiter/]: Config spec loading complete, found 32 configs from 32 mods.
+[28Oct2026 15:11:29.256] [main/INFO] [com.iafenvoy.jupiter.Jupiter/]: Cloth Config loading complete, found 3 configs from 3 mods.
+[28Oct2026 15:11:29.257] [main/INFO] [com.iafenvoy.jupiter.Jupiter/]: Successfully reload 37 server config(s).
+[28Oct2026 15:11:29.264] [main/INFO] [Curios API/]: Loaded 17 curio slots
+[28Oct2026 15:11:29.269] [main/INFO] [Curios API/]: Loaded 10 curio entities
+[28Oct2026 15:11:29.291] [main/INFO] [Dungeon Crawl/]: Loading data...
+[28Oct2026 15:11:29.509] [main/INFO] [Dungeon Crawl/]: Done.
+[28Oct2026 15:11:29.512] [main/INFO] [net.mcreator.enhancedenchanting.EnhancedEnchantingMod/]: Successfuly loaded EnchantmentFusion : enhanced_enchanting:pheonix
+[28Oct2026 15:11:29.512] [main/INFO] [net.mcreator.enhancedenchanting.EnhancedEnchantingMod/]: Successfuly loaded EnchantmentFusion : enhanced_enchanting:fire_wall
+[28Oct2026 15:11:29.512] [main/INFO] [net.mcreator.enhancedenchanting.EnhancedEnchantingMod/]: Successfuly loaded EnchantmentFusion : enhanced_enchanting:blood_thirst
+[28Oct2026 15:11:29.512] [main/INFO] [net.mcreator.enhancedenchanting.EnhancedEnchantingMod/]: Successfuly loaded EnchantmentFusion : enhanced_enchanting:chicken_master
+[28Oct2026 15:11:29.515] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[28Oct2026 15:11:29.517] [main/INFO] [placebo/]: Registered 0 wanderer_trades.
+[28Oct2026 15:11:29.517] [main/INFO] [placebo/]: Registered 0 brewing_mixes.
+[28Oct2026 15:11:29.532] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: cataclysm:needs_black_steel_tool, cataclysm:needs_monstrosity_tool
+[28Oct2026 15:11:29.701] [main/WARN] [ModernFix/]: Initial datapack load took 3.963 s
+[28Oct2026 15:11:29.764] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
+[28Oct2026 15:11:29.764] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[28Oct2026 15:11:29.764] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[28Oct2026 15:11:29.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[28Oct2026 15:11:29.943] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[28Oct2026 15:11:29.990] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[28Oct2026 15:11:30.019] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[28Oct2026 15:11:30.020] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[28Oct2026 15:11:30.020] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[28Oct2026 15:11:30.021] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[28Oct2026 15:11:30.064] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected aquamirae:scuttler that was registered with AMBIENT mob category but was added under CREATURE mob category for minecraft:deep_cold_ocean biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
+[28Oct2026 15:11:30.065] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected aquamirae:scuttler that was registered with AMBIENT mob category but was added under CREATURE mob category for minecraft:deep_frozen_ocean biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
+[28Oct2026 15:11:30.081] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected yungscavebiomes:sand_snapper that was registered with MONSTER mob category but was added under AMBIENT mob category for yungscavebiomes:lost_caves biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
+[28Oct2026 15:11:30.439] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[28Oct2026 15:11:30.439] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[28Oct2026 15:11:30.440] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[28Oct2026 15:11:31.129] [Server thread/WARN] [yungsapi/]: WARNING: block Block{minecraft:iron_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[28Oct2026 15:11:31.152] [Server thread/WARN] [yungsapi/]: WARNING: block Block{minecraft:iron_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[28Oct2026 15:11:31.162] [Server thread/WARN] [yungsapi/]: WARNING: block Block{minecraft:iron_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[28Oct2026 15:11:31.170] [Server thread/WARN] [yungsapi/]: WARNING: block Block{minecraft:iron_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[28Oct2026 15:11:31.176] [Server thread/WARN] [yungsapi/]: WARNING: block Block{minecraft:iron_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[28Oct2026 15:11:31.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[28Oct2026 15:11:31.185] [Server thread/WARN] [mixin/]: Method overwrite conflict for removeIf in lithium.mixins.json:collections.chunk_tickets.SortedArraySetMixin from mod lithium, previously written by org.embeddedt.modernfix.common.mixin.bugfix.paper_chunk_patches.SortedArraySetMixin. Skipping method.
+[28Oct2026 15:11:31.537] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Oct2026 15:11:31.689] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[28Oct2026 15:11:32.212] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
+[28Oct2026 15:11:32.715] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 77%
+[28Oct2026 15:11:32.740] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1560 ms
+[28Oct2026 15:11:32.740] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.706s)! For help, type "help"
+[28Oct2026 15:11:33.151] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[28Oct2026 15:11:33.153] [Server thread/INFO] [com.dimas_studio.tfbr.TFBR/]: HELLO from Dimas Studios!
+[28Oct2026 15:11:33.202] [Server thread/INFO] [com.finderfeed.fdlib.FDLib/]: Loading FD configs...
+[28Oct2026 15:11:33.202] [Server thread/INFO] [com.finderfeed.fdlib.FDLib/]: Loading config fdlib:test
+[28Oct2026 15:11:33.203] [Server thread/INFO] [com.finderfeed.fdlib.FDLib/]: Loading config fdlib:fdlib_client
+[28Oct2026 15:11:33.204] [Server thread/INFO] [com.finderfeed.fdlib.FDLib/]: Loaded FD configs.
+[28Oct2026 15:11:33.204] [Server thread/WARN] [ModernFix/]: Dedicated server took 46.432 seconds to load
+[28Oct2026 15:11:33.322] [ForkJoinPool.commonPool-worker-2/INFO] [io.redspace.ironslib.IronsLib/]: Loaded 260
+[28Oct2026 15:11:33.326] [Server thread/INFO] [invoker54.reviveme.common.data.ReviveItemData/]: [Revive Me!] HOW MANY BYTES WERE WRITTEN?? 5855
+[28Oct2026 15:12:02.395] [Server thread/INFO] [STDOUT/]: [net.caffeinemc.mods.lithium.common.block.TrackedBlockStatePredicate:<clinit>:13]: Lithium Cached BlockState Flags are disabled!
+[28Oct2026 15:12:02.438] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Saoki_oq[/127.81.131.152:51717] logged in with entity id 24 at (26.101949266475227, 33.0, -1373.8744615651535)
+[28Oct2026 15:12:02.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saoki_oq joined the game
+[28Oct2026 15:12:02.667] [Server thread/INFO] [invoker54.reviveme.common.data.ReviveItemData/]: [Revive Me!] HOW MANY BYTES WERE WRITTEN?? 5855
+[28Oct2026 15:12:03.680] [Server thread/INFO] [pingwheel/]: Channel update: Saoki_oq -> default
+[28Oct2026 15:12:03.681] [Server thread/INFO] [ShulkerBoxTooltip/]: [ShulkerBoxTooltip] Saoki_oq: protocol version: 2.0
+[28Oct2026 15:12:03.686] [Server thread/INFO] [ShulkerBoxTooltip Plugins/]: [ShulkerBoxTooltip Plugins] Loading 1 plugin: shulkerboxtooltip
+[28Oct2026 15:12:03.693] [Server thread/INFO] [ShulkerBoxTooltip Plugins/]: [ShulkerBoxTooltip Plugins] Registered 31 providers for mod shulkerboxtooltip
+[28Oct2026 15:12:07.835] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: PiglinBrute['Piglin Brute'/119, l='ServerLevel[world]', x=-129.27, y=83.00, z=-1288.49]
+[28Oct2026 15:12:16.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Saoki_oq: Set own game mode to Creative Mode]
+[28Oct2026 15:14:56.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Saoki_oq: Set own game mode to Survival Mode]
+[28Oct2026 15:15:57.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Saoki_oq: Gave 5 [Cinderous Soulcaller] to Saoki_oq]
+[28Oct2026 15:17:43.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saoki_oq has fallen (Saoki_oq was sent to hell by Echo of Tyros, First Flamebearer)
+[28Oct2026 15:17:47.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saoki_oq revived Saoki_oq -> Experience
+[28Oct2026 15:20:18.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Saoki_oq: The game is frozen]
+[28Oct2026 15:22:07.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Saoki_oq: The game is running normally]
+[28Oct2026 15:22:15.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Saoki_oq: The game is frozen]
+[28Oct2026 15:23:15.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Saoki_oq: The game is running normally]
+[28Oct2026 15:23:21.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Saoki_oq: The game is frozen]
+[28Oct2026 15:25:08.088] [Server thread/ERROR] [net.minecraft.commands.Commands/]: Command exception: /ironsSpellbooks upgrade irons_spellbooks:fire_power 1000
+java.lang.RuntimeException: empty item
+	at TRANSFORMER/irons_spellbooks@1.21.1-3.16.3/io.redspace.ironsspellbooks.command.IronsSpellbooksCommand.upgradeHeldItem(IronsSpellbooksCommand.java:97) ~[irons_spellbooks-1.21.1-3.16.3.jar%23271!/:1.21.1-3.16.3]
+	at MC-BOOTSTRAP/brigadier@1.3.10/com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar%2399!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:29) ~[server-1.21.1-20240808.144430-srg.jar%23226!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[server-1.21.1-20240808.144430-srg.jar%23226!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[server-1.21.1-20240808.144430-srg.jar%23226!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:8) ~[server-1.21.1-20240808.144430-srg.jar%23226!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:107) ~[server-1.21.1-20240808.144430-srg.jar%23226!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.commands.Commands.executeCommandInContext(Commands.java:363) ~[server-1.21.1-20240808.144430-srg.jar%23226!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.commands.Commands.performCommand(Commands.java:284) ~[server-1.21.1-20240808.144430-srg.jar%23226!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:1282) ~[server-1.21.1-20240808.144430-srg.jar%23226!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$7(ServerGamePacketListenerImpl.java:1269) ~[server-1.21.1-20240808.144430-srg.jar%23226!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.21.1-20240808.144430-srg.jar%23226!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:148) ~[server-1.21.1-20240808.144430-srg.jar%23226!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[server-1.21.1-20240808.144430-srg.jar%23226!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:872) ~[server-1.21.1-20240808.144430-srg.jar%23226!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:170) ~[server-1.21.1-20240808.144430-srg.jar%23226!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[server-1.21.1-20240808.144430-srg.jar%23226!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:855) ~[server-1.21.1-20240808.144430-srg.jar%23226!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:849) ~[server-1.21.1-20240808.144430-srg.jar%23226!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[server-1.21.1-20240808.144430-srg.jar%23226!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:821) ~[server-1.21.1-20240808.144430-srg.jar%23226!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.mixinextras$bridge$managedBlock$280(MinecraftServer.java) ~[server-1.21.1-20240808.144430-srg.jar%23226!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.wrapOperation$zbh000$modernfix$managedBlock(MinecraftServer.java:2154) ~[server-1.21.1-20240808.144430-srg.jar%23226!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:826) ~[server-1.21.1-20240808.144430-srg.jar%23226!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:712) ~[server-1.21.1-20240808.144430-srg.jar%23226!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[server-1.21.1-20240808.144430-srg.jar%23226!/:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[28Oct2026 15:25:58.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Saoki_oq: The game is running normally]
+[28Oct2026 15:26:41.568] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Saoki_oq lost connection: Disconnected
+[28Oct2026 15:26:41.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saoki_oq left the game
